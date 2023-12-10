@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
+    screens: {
+      'mobile': {'max':'375px'}
+    },
     extend: {
       fontFamily: {
         "HankenGrotesk-normal": "HankenGrotesk-normal",

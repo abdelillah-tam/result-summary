@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://abdelillah-tam.github.io/result-summary/)
+- Live Site URL: [Results Summary](https://abdelillah-tam.github.io/result-summary/)
 
 ## My process
 
@@ -46,7 +46,6 @@ Users should be able to:
 - Flex
 - Mobile-first workflow
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 

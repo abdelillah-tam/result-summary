@@ -544,36 +544,6 @@ video {
   width: 100%;
 }
 
-@media (min-width: 640px) {
-  .container {
-    max-width: 640px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
-  }
-}
-
 .sr-only {
   position: absolute;
   width: 1px;
@@ -2553,40 +2523,33 @@ video {
   font-size: medium;
 }
 
-@media (min-width: 640px) {
-  .sm\:container {
+@media (max-width: 375px){
+  .main_container{
+    width: 100%;
+    height: 100%;
+  }
+
+  .main_container .your_result{
     width: 100%;
   }
 
-  @media (min-width: 640px) {
-    .sm\:container {
-      max-width: 640px;
-    }
+  .main_container .summary{
+    width: 100%;
   }
+}
 
-  @media (min-width: 768px) {
-    .sm\:container {
-      max-width: 768px;
-    }
-  }
+.hover\:bg-gradient-to-b:hover {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
 
-  @media (min-width: 1024px) {
-    .sm\:container {
-      max-width: 1024px;
-    }
-  }
+.hover\:from-light-slate-blue:hover {
+  --tw-gradient-from: hsl(252, 100%, 67%) var(--tw-gradient-from-position);
+  --tw-gradient-to: hsl(252 100% 67% / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
 
-  @media (min-width: 1280px) {
-    .sm\:container {
-      max-width: 1280px;
-    }
-  }
-
-  @media (min-width: 1536px) {
-    .sm\:container {
-      max-width: 1536px;
-    }
-  }
+.hover\:to-light-royal-blue:hover {
+  --tw-gradient-to: hsl(241, 81%, 54%) var(--tw-gradient-to-position);
 }
 
 .hover\:font-bold:hover {
@@ -2611,16 +2574,8 @@ video {
   text-align: center;
 }
 
-@media (min-width: 640px) {
-  .sm\:underline {
-    text-decoration-line: underline;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  @media (min-width: 1024px) {
-    .dark\:lg\:hover\:\[paint-order\:markers\]:hover {
-      paint-order: markers;
-    }
+@media (max-width: 375px) {
+  .mobile\:flex-col {
+    flex-direction: column;
   }
 }
