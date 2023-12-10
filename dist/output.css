@@ -2487,12 +2487,12 @@ video {
   transform: translate(-50%, -50%);
 }
 
-.your_result {
+.main_container .your_result {
   width: 50%;
   padding: 4%;
 }
 
-.summary {
+.main_container .summary {
   width: 50%;
   padding: 4%;
 }
