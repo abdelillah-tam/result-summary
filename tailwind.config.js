@@ -3,7 +3,7 @@ module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
     screens: {
-      'mobile': {'max':'375px'}
+      'mobile': {'max':'640px'}
     },
     extend: {
       fontFamily: {
