@@ -2574,7 +2574,7 @@ video {
   text-align: center;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 640px) {
   .mobile\:flex-col {
     flex-direction: column;
   }
