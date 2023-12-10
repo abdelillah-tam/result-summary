@@ -2531,10 +2531,12 @@ video {
 
   .main_container .your_result{
     width: 100%;
+    height: 50%;
   }
 
   .main_container .summary{
     width: 100%;
+    height: 50%;
   }
 }
 
@@ -2575,7 +2577,47 @@ video {
 }
 
 @media (max-width: 640px) {
+  .mobile\:h-24 {
+    height: 6rem;
+  }
+
+  .mobile\:h-36 {
+    height: 9rem;
+  }
+
+  .mobile\:w-24 {
+    width: 6rem;
+  }
+
+  .mobile\:w-36 {
+    width: 9rem;
+  }
+
   .mobile\:flex-col {
     flex-direction: column;
+  }
+
+  .mobile\:rounded-t-none {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+
+  .mobile\:rounded-tr-none {
+    border-top-right-radius: 0px;
+  }
+
+  .mobile\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .mobile\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .mobile\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
