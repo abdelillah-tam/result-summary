@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./dist/output.css" rel="stylesheet" />
+    <title>Results Summary</title>
+</head>
+
+<body>
+    <div class="main_container bg-white flex flex-shrink absolute rounded-3xl shadow-2xl shadow-light-lavender">
+        <div class="your_result flex flex-col flex-wrap rounded-3xl justify-around items-center bg-gradient-to-b from-light-slate-blue to-light-royal-blue">
+            <h1 class="basis-2/12 text-light-lavender font-HankenGrotesk-medium flex justify-center items-center w-full text-2xl">Your Result</h1>
+            <div class="basis-5/12">
+                <div class="result_circle h-52 w-52 flex flex-col rounded-full justify-center items-center text-white bg-gradient-to-b from-violet-blue to-persian-blue">
+                    <h1 class="text-6xl font-HankenGrotesk-extrabold">76</h1>
+                    <p class="text-light-lavender font-HankenGrotesk-medium">of 100</p>
+                </div>
+                
+            </div>
+            <h1 class="basis-1/12 flex justify-center items-center text-white text-3xl font-HankenGrotesk-bold">Great</h1>
+            <p class="basis-3/12 text-light-lavender flex justify-center items-center text-center text-lg font-HankenGrotesk-normal px-4">You scored higher than 65% of the people
+                who have taken these tests.</p>
+        </div>
+        <div class="summary flex flex-col justify-between font-HankenGrotesk-medium">
+            <h1 class="basis-2/12 font-HankenGrotesk-medium text-2xl flex flex-wrap flex-col justify-center text-dark-gray-blue">Summary</h1>
+            <div class="basis-1/12 flex justify-between bg-light-red-50 py-4 rounded-lg">
+                <img class="basis-2/12 h-5 w-5" src="./assets/icons/icon-reaction.svg"/>
+                <h3 class="basis-7/12 reaction text-light-red-primary">Reaction</h3>
+                <p class="basis-3/12">80 / 100</p>
+            </div>
+            <div class="basis-1/12 flex justify-between bg-orangey-yellow-50 py-4 rounded-lg">
+                <img class="basis-2/12 h-5 w-5" src="./assets/icons/icon-memory.svg" />
+                <h3 class="basis-7/12 memory text-orangey-yellow-primary">Memory</h3>
+                <p class="basis-3/12">92 / 100</p>
+            </div>
+            <div class="basis-1/12 flex justify-between bg-green-teal-50 py-4 rounded-lg">
+                <img class="basis-2/12 h-5 w-5" src="./assets/icons/icon-verbal.svg" />
+                <h3 class="basis-7/12 verbal text-green-teal-primary">Verbal</h3>
+                <p class="basis-3/12">61 / 100</p>
+            </div>
+            <div class="basis-1/12 flex justify-between bg-cobalt-blue-50 py-4 rounded-lg">
+                <img class="basis-2/12 h-5 w-5" src="./assets/icons/icon-visual.svg" />
+                <h3 class="basis-7/12 visual font-HankenGrotesk-bold text-cobalt-blue-primary">
+                    Visual
+                </h3>
+                <p class="basis-3/12">72 / 100</p>
+            </div>
+            <div class="basis-2/12 flex flex-col flex-wrap justify-center">
+                <button class="bg-dark-gray-blue rounded-full text-white p-3 w-full">
+                    Continue
+                </button>
+            </div>
+            
+        </div>
+    </div>
+</body>
+
+</html>

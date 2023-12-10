@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.main_container {
+    width: 700px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.your_result {
+    width: 50%;
+    padding: 4%;
+}
+
+.summary {
+    width: 50%;
+    padding: 4%;
+}
+
+@font-face {
+    font-family: 'HankenGrotesk-normal';
+    src: url("../assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HankenGrotesk-bold';
+    src: url("../assets/fonts/HankenGrotesk-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'HankenGrotesk-extrabold';
+    src: url("../assets/fonts/HankenGrotesk-ExtraBold.ttf");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'HankenGrotesk-medium';
+    src: url("../assets/fonts/HankenGrotesk-Medium.ttf");
+    font-size: medium;
+}
