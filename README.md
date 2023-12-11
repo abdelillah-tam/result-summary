@@ -30,7 +30,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screen-result.png)
+- Desktop: ![](./screen-result.png)
+- Mobile: ![](./screen-result-mobile.jpg)
 
 ### Links
 
